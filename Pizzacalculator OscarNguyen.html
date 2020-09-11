@@ -1,0 +1,43 @@
+<html>
+    <body>
+        <script>
+                const drie = 3;
+                const vijf = 5;
+                const zeven = 7;
+                var Klein
+                var Middelmatig
+                var Groot
+                var linebreak = "<br>";
+                alert ("Wilt u graag een pizza bestellen?"); // Een melding die vraagt of je een pizza wilt bestellen.
+                var Klein = prompt("Hoeveel aantal kleine pizza's wilt u bestellen? (3,-"); // Zal opslaan hoeveel kleine pizza's de persoon wilt bestellen.
+                var Middelmatig = prompt("Hoeveel aantal middelmatige pizza's u wilt bestellen? (5,-)"); // Zal opslaan hoeveel middelmatige pizza's de persoon wilt bestellen.
+                var Groot = prompt("Hoeveel grote pizza's wilt u bestellen? (7,-"); // Zal opslaan hoeveel grote pizza's de persoon wilt bestellen.
+                document.write("Pizzario van de hoek")
+                document.write(linebreak);
+                document.write(linebreak)
+                document.write(Klein + " totaal aantal kleine pizza's")
+               	document.write(linebreak);
+               	document.write(Middelmatig + " totaal aantal middelmatige pizza's")
+               	document.write(linebreak);
+               	document.write(Groot + " totaal aantal grote pizza's")
+               	document.write(linebreak);
+                document.write("pizza's totaal") // laat het totale aantal van de pizza's op beeld zien.
+                document.write(linebreak)
+                var totaal1 = Klein * drie // berekend het bedrag van het aantal kleine pizza's
+                var totaal2 = Middelmatig * vijf //  berekend het bedrag van het aantal middelmatige pizza's
+                var totaal3 = Groot * zeven // berekend het bedrag van het aantal grootte pizza's
+                document.write(linebreak);
+                document.write(totaal1 + " Euro aan kleine pizza's") // laat het bedrag van alle kleine pizza's besteld zien.
+                document.write(linebreak);
+                document.write(totaal2 + " Euro aan middelmatige pizza's") // laat het bedrag van alle middelmatige pizza's besteld zien.
+                document.write(linebreak);
+                document.write(totaal3 + " Euro aan grote pizza's") // laat het bedrag van alle grootte pizza's besteld zien.
+                document.write(linebreak)
+                document.write("totale bedrag:")
+                document.write(linebreak)
+                document.write(totaal1 + totaal2 + totaal3) //  rekent alle bedragen bij elkaar op
+                document.write(Prijs + " euro");
+
+         </script>
+    </body>
+</html>
